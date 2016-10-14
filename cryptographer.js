@@ -1,5 +1,6 @@
 var crypto = require("crypto")
-var key = "super-secret"
+var fs = require("fs")
+var key = fs.readFileSync("./key")
 
 module.exports = {
   encrypt: function(plaintext){
