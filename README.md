@@ -9,4 +9,4 @@ Or, if your machine doesn't have `make`:
 
 2. `node generate_key.js`
 3. `node chat_server.js`
-4. `node chat_client.js` (In a different terminal:)
+4. `node chat_client.js` (In a different terminal)
